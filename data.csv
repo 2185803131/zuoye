@@ -1,0 +1,33 @@
+drug_id,drug_name,therapeutic_area,dosage_mg,unit_price_cny,prescription_type,storage_condition,manufacturer_type
+D001,Paracetamol,Analgesic,500,12.5,OTC,Room temperature,Generic
+D002,Ibuprofen,Analgesic,200,18.0,OTC,Room temperature,Generic
+D003,Diclofenac,Analgesic,50,26.5,Rx,Room temperature,Generic
+D004,Celecoxib,Analgesic,200,58.0,Rx,Room temperature,Brand
+D005,Amoxicillin,Antibiotic,500,35.0,Rx,Room temperature,Generic
+D006,Azithromycin,Antibiotic,250,48.0,Rx,Room temperature,Brand
+D007,Cefalexin,Antibiotic,500,42.0,Rx,Room temperature,Generic
+D008,Levofloxacin,Antibiotic,500,65.0,Rx,Room temperature,Brand
+D009,Metformin,Endocrine,500,16.0,Rx,Room temperature,Generic
+D010,Acarbose,Endocrine,50,38.0,Rx,Room temperature,Generic
+D011,Levothyroxine,Endocrine,100,29.0,Rx,Protect from light,Brand
+D012,Atorvastatin,Cardiovascular,20,55.0,Rx,Room temperature,Generic
+D013,Amlodipine,Cardiovascular,5,22.0,Rx,Room temperature,Generic
+D014,Losartan,Cardiovascular,50,46.0,Rx,Room temperature,Generic
+D015,Metoprolol,Cardiovascular,47.5,39.0,Rx,Room temperature,Generic
+D016,Omeprazole,Gastrointestinal,20,31.0,OTC,Room temperature,Generic
+D017,Domperidone,Gastrointestinal,10,24.0,Rx,Room temperature,Generic
+D018,Montelukast,Respiratory,10,72.0,Rx,Room temperature,Brand
+D019,Salbutamol,Respiratory,4,36.0,Rx,Room temperature,Generic
+D020,Loratadine,Allergy,10,28.0,OTC,Room temperature,Generic
+D021,Cetirizine,Allergy,10,25.0,OTC,Room temperature,Generic
+D022,Fluconazole,Antifungal,150,45.0,Rx,Room temperature,Generic
+D023,Clotrimazole,Antifungal,100,19.0,OTC,Room temperature,Generic
+D024,Sertraline,Psychiatric,50,68.0,Rx,Room temperature,Brand
+D025,Escitalopram,Psychiatric,10,75.0,Rx,Room temperature,Brand
+D026,Vitamin C,Supplement,100,14.0,OTC,Keep dry,Generic
+D027,Calcium carbonate,Supplement,600,21.0,OTC,Keep dry,Generic
+D028,Prednisone,Anti-inflammatory,5,,Rx,Protect from light,Generic
+D029,Hydroxychloroquine,Anti-inflammatory,,62.0,Rx,Room temperature,Generic
+D030,Paracetamol,Analgesic,500,12.5,OTC,Room temperature,Generic
+D031,Famotidine,Gastrointestinal,20,33.0,OTC,Room temperature,Generic
+D032,Oseltamivir,Antiviral,75,98.0,Rx,Room temperature,Brand
