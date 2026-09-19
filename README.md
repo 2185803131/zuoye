@@ -4,18 +4,18 @@
 
 ## 1. 项目目的
 
-本项目面向 Python 初学者，使用 **Pandas** 整理药物数据，使用 **Matplotlib** 绘制图表，并在 Jupyter Notebook 中展示完整分析过程。
+本项目以高血压治疗药物作为案例，使用 **Pandas** 整理药物数据，使用 **Matplotlib** 绘制图表，并在 Jupyter Notebook 中展示完整分析过程。
 
 项目将回答以下简单问题：
 
-- 数据中有哪些治疗领域和药物类别？
-- 不同治疗领域的药品盒装价格是否存在差异？
+- 数据中有哪些高血压药物类别？
+- 不同降压药的药品盒装价格是否存在差异？
 - 药品规格（毫克数）与盒装价格之间是否有直观关系？
 - 数据中是否有缺失值或重复记录，应该怎样处理？
 
 ## 2. 数据来源与说明
 
-`data.csv` 是为本课程**人工生成的教学模拟数据**，不是临床用药建议、真实市场价格或药品说明书资料。药物名称、治疗领域和数值仅用于练习数据处理及可视化。
+`data.csv` 是为本课程我为本作业构建的**模拟高血压药物数据集**，所有内容都是虚构示例，**不能当作真实用药、药品价格参考，不可用于临床**。药物名称、价格、规格仅用来练习Python数据处理和可视化。
 
 数据包含以下字段：
 
@@ -23,11 +23,11 @@
 | --- | --- |
 | `drug_id` | 模拟药物记录编号 |
 | `drug_name` | 药物通用名或教学示例名称 |
-| `therapeutic_area` | 治疗领域 |
+| `therapeutic_area` | 治疗类别 |
 | `dosage_mg` | 单次规格（mg） |
 | `unit_price_cny` | 模拟盒装价格（元） |
 | `prescription_type` | 处方药或非处方药 |
-| `storage_condition` | 建议储存条件（教学示例） |
+| `storage_condition` | 建议储存条件 |
 | `manufacturer_type` | 模拟生产企业类型 |
 
 数据故意包含少量缺失值和一条近似重复的药物记录，以便练习数据清洗。
@@ -37,10 +37,10 @@
 ```text
 drug-data-analysis/
 ├── analysis.ipynb      # 主分析 Notebook
-├── data.csv            # 教学模拟数据
+├── data.csv            # 高血压模拟数据
 ├── requirements.txt    # Python 依赖
 ├── .gitignore          # Git 忽略规则
-└── README.md           # 项目说明（本文件）
+└── README.md           # 项目说明
 ```
 
 ## 4. 环境配置
@@ -89,7 +89,7 @@ Notebook 按以下顺序开展分析：
 
 运行 Notebook 后可看到：
 
-- 不同治疗领域的平均模拟盒装价格有一定差别；
+- 不同类别的高血压模拟药物，平均模拟盒装价格有一定差别；
 - 较大规格的药物不一定更贵，说明价格还可能受剂型、企业类型和市场因素影响；
 - 少数缺失值经中位数补全后可以继续开展基础教学分析；
 - 这些图表仅说明本模拟样本的特点，不能用于药品定价、采购或临床决策。
@@ -101,14 +101,14 @@ Notebook 按以下顺序开展分析：
 ```bash
 git status
 git add .
-git commit -m "更新药物数据分析"
+git commit -m "更新高血压药物数据分析"
 git log --oneline
 ```
 
-如果需要提交项目链接，可以在 GitHub 新建空仓库后执行（将链接替换成自己的仓库地址）：
+如果需要提交项目链接，可以在 GitHub 新建空仓库后执行
 
 ```bash
-git remote add origin https://github.com/你的用户名/drug-data-analysis.git
+git remote add origin https://github.com/2185803131/zuoye.git
 git branch -M main
 git push -u origin main
 ```
